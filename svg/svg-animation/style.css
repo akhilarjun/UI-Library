@@ -1,0 +1,97 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 100vh;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body h1 {
+  text-align: center;
+  color: royalblue;
+  font-size: 3rem;
+  width: 100%;
+}
+
+body .container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .container svg {
+  margin: auto;
+  width: 35%;
+}
+
+body .container svg #Cup {
+  -webkit-animation: move-from-right 1s ease-in;
+          animation: move-from-right 1s ease-in;
+}
+
+body .container svg #table_plant {
+  -webkit-animation: move-from-left 1s ease-in;
+          animation: move-from-left 1s ease-in;
+}
+
+body .container svg #laptop-circle {
+  -webkit-animation: blink 2s linear infinite alternate;
+          animation: blink 2s linear infinite alternate;
+}
+
+@-webkit-keyframes move-from-right {
+  from {
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
+  }
+}
+
+@keyframes move-from-right {
+  from {
+    -webkit-transform: translateX(500px);
+            transform: translateX(500px);
+  }
+}
+
+@-webkit-keyframes move-from-left {
+  from {
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
+  }
+}
+
+@keyframes move-from-left {
+  from {
+    -webkit-transform: translateX(-500px);
+            transform: translateX(-500px);
+  }
+}
+
+@-webkit-keyframes blink {
+  to {
+    opacity: 0;
+  }
+  from {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+  from {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
