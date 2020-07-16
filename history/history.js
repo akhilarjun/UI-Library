@@ -18,4 +18,4 @@ window.addEventListener('popstate', e => {
     selectBox(e.state.id);
 })
 
-history.replaceState({ id: null }, `Select a box`, `./`);
+history.replaceState({ id: null }, `Select a box`, `./history-api-demo.html`);
