@@ -18,4 +18,6 @@ Now, ```page title``` parameter is not currently implemented in any of the brows
 But it would be a good practise to pass them so as to FutureProof your applications and API calls.
 
 ### Note
-Reloading the Demo wont work if you have pushState mehtod push any URL's to your browser history
+Reloading the Demo wont work if you have pushState mehtod push any URL's to your browser history, coz they dont exist.
+
+To make this work, you would need your server to return index.html everytime it doesnt understand the path that it is queried. And handle the 404 error yourself programatically.
