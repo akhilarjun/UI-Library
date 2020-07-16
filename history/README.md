@@ -1,6 +1,6 @@
 # History API
 
-### [Demo](./demo.html)
+### [Demo](./history-api-demo.html)
 
 History API is HTML5 API that enables us to modify or alter the history of the browser.
 
