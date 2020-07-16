@@ -2,5 +2,5 @@
 Everything ever learnt in the UI space
 
 ## Projects
-* SVG
-    * SVG Animation using CSS
+* [SVG](./svg)
+    * [SVG Animation using CSS](./svg/svg-animation)
