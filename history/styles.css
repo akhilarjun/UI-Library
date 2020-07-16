@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+body .box {
+  width: 300px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+body .box:nth-child(1) {
+  background-color: green;
+}
+
+body .box:nth-child(2) {
+  background-color: blueviolet;
+}
+
+body .box:nth-child(3) {
+  background-color: red;
+}
+
+body .box:nth-child(4) {
+  background-color: gold;
+}
+
+body .box.active {
+  height: 400px;
+  width: 400px;
+}
+/*# sourceMappingURL=styles.css.map */

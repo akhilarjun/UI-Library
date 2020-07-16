@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    .box {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 500ms;
+        &:nth-child(1){
+            background-color: green;
+        }
+        &:nth-child(2){
+            background-color: blueviolet;
+        }
+        &:nth-child(3){
+            background-color: red;
+        }
+        &:nth-child(4){
+            background-color: gold;
+        }
+        &.active{
+            height: 400px;
+            width: 400px;
+        }
+    }
+}
