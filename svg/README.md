@@ -10,6 +10,10 @@ Easiest way out is to use SVG's created professionaly, if we are looking for pro
 
 The best among them is [unDraw](https://undraw.co/illustrations). Download files that suit your need, and then edit the svg files using [Figma](https://figma.com) which has the capabilit to seperate a vector file into individual paths. which can be then grouped to be later styled/ animated using css.
 
+## SVG Sub Projects
+
+* [SVG Animation using CSS](./svg/svg-animation)
+
 ## Good Reads
 
 1. [How to use SVG - CSS Tricks](https://css-tricks.com/using-svg/)
