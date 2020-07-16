@@ -12,7 +12,7 @@ The best among them is [unDraw](https://undraw.co/illustrations). Download files
 
 ## SVG Sub Projects
 
-* [SVG Animation using CSS](./svg/svg-animation)
+* [SVG Animation using CSS](./svg-animation)
 
 ## Good Reads
 
