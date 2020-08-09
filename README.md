@@ -8,4 +8,7 @@ Almost all the links down there have detailied notes of the topic. And reference
 ## Projects
 * [SVG](./svg)
     * [SVG Animation using CSS](./svg/svg-animation)
+* CSS
+    * [Drop Shadow](./drop-shadow)
+    * [Text Effects](./text-effects/text-effects-demo.html)
 * [History API](./history)
