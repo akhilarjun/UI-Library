@@ -15,6 +15,10 @@ It consists of three main technologies, which can be used together to create ver
 - Attach a shadow DOM if required using `Element.attachShadow()` method. And add child elements and event listeners to the Shadow DOM using regular DOM methods
 - If required use `<template>` and `<slot>` to parameterize your custom component content.
 
+### Demo
+
+[Demo of Web Elements](./web-components-demo.html)
+
 ### CustomElementRegistry API
 
 Create a class which extends the normal `HTMLElement` and add extra functionality as required.
